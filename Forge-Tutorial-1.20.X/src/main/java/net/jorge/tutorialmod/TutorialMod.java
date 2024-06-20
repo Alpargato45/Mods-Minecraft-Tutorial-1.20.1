@@ -1,6 +1,10 @@
 package net.jorge.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.jorge.tutorialmod.item.ModCreativeModTabs;
+import net.jorge.tutorialmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -22,9 +26,14 @@ public class TutorialMod
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public TutorialMod()
-    {
+    public TutorialMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        //Con esta linea creamos la nueva pestaña
+        ModCreativeModTabs.registrer(modEventBus);
+
+        //Con esta linea nos aseguramos de que agregamos los items al juego
+        ModItems.registrer(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -42,8 +51,12 @@ public class TutorialMod
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        //Elijo la tabla donde lo voy a crear y luego lo meto
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ZAFIRO);
+            event.accept(ModItems.ZAFIRO_CRUDO);
+        }
 
     }
 
