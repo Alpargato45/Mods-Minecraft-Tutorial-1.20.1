@@ -16,6 +16,7 @@ public class ModItems {
     public static final RegistryObject<Item> ZAFIRO_CRUDO = ITEMS.register("zafiro_crudo",
             () -> new Item(new Item.Properties()));
 
+
     public static void registrer(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

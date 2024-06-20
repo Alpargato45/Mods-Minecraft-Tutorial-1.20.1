@@ -1,6 +1,7 @@
 package net.jorge.tutorialmod.item;
 
 import net.jorge.tutorialmod.TutorialMod;
+import net.jorge.tutorialmod.block.ModBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,6 +19,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ZAFIRO.get());
                         pOutput.accept(ModItems.ZAFIRO_CRUDO.get());
+                        pOutput.accept(ModBlock.BLOQUE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.BLOQUE_ZAFIRO_CRUDO.get());
                     })
                     .build());
 

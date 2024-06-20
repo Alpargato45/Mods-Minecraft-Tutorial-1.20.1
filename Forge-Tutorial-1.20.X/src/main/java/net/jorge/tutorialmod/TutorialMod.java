@@ -1,6 +1,7 @@
 package net.jorge.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.jorge.tutorialmod.block.ModBlock;
 import net.jorge.tutorialmod.item.ModCreativeModTabs;
 import net.jorge.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -34,6 +35,7 @@ public class TutorialMod
 
         //Con esta linea nos aseguramos de que agregamos los items al juego
         ModItems.registrer(modEventBus);
+        ModBlock.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
