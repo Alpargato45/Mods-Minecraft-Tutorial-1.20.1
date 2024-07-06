@@ -20,7 +20,18 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ZAFIRO.get());
                         pOutput.accept(ModItems.ZAFIRO_CRUDO.get());
                         pOutput.accept(ModBlock.BLOQUE_ZAFIRO.get());
+
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+                        pOutput.accept(ModItems.PINE_CONE.get());
+
                         pOutput.accept(ModBlock.BLOQUE_ZAFIRO_CRUDO.get());
+                        pOutput.accept(ModBlock.SOUND_BLOCK.get());
+
+                        pOutput.accept(ModBlock.ORE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.DEEPSLATE_ORE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.NETHER_ORE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.END_STONE_ORE_ZAFIRO.get());
                     })
                     .build());
 

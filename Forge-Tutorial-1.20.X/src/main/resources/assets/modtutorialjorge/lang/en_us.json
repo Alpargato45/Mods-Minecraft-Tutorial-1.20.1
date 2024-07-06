@@ -5,5 +5,17 @@
   "block.modtutorialjorge.bloque_zafiro": "Bloque de Zafiro",
   "block.modtutorialjorge.bloque_zafiro_crudo": "Bloque de Zafiro Crudo",
 
+  "item.modtutorialjorge.metal_detector": "Detector de Metales",
+  "block.modtutorialjorge.sound_block": "Sound Block",
+  "item.modtutorialjorge.strawberry": "Fresa",
+  "item.modtutorialjorge.pine_cone": "Piña",
+
+  "block.modtutorialjorge.ore_zafiro": "Ore de Zafiro",
+  "block.modtutorialjorge.deepslate_ore_zafiro": "Ore de Zafiro de Deepslate",
+  "block.modtutorialjorge.end_stone_ore_zafiro": "Ore de Zafiro de Endstone",
+  "block.modtutorialjorge.nether_ore_zafiro": "Ore de Zafiro de Netherrack",
+
+  "tooltip.modtutorialjorge.metal_detector.tooltip": "Encuentra minerales bajo tierra",
+
   "creativetab.tutorial_tab": "Zafiro Tutorial tab"
 }
