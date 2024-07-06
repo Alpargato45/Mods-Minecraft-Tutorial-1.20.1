@@ -1,0 +1,9 @@
+{
+  "item.examplemod.ejemploitem": "Ejemplo Item",
+
+  "block.examplemod.ejemplobloque": "Ejemplo Bloque",
+
+  "tooltip.examplemod.ejemplotooltip.tooltip": "Ejemplo Tooltip",
+
+  "creativetab.tutorial_tab": "Ejemplo Tab"
+}
