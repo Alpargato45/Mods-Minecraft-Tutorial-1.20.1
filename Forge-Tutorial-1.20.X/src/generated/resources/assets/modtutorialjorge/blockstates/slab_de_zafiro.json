@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "modtutorialjorge:block/slab_de_zafiro"
+    },
+    "type=double": {
+      "model": "modtutorialjorge:block/bloque_zafiro"
+    },
+    "type=top": {
+      "model": "modtutorialjorge:block/slab_de_zafiro_top"
+    }
+  }
+}

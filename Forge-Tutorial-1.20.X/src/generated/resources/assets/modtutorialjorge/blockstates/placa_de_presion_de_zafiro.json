@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "modtutorialjorge:block/placa_de_presion_de_zafiro"
+    },
+    "powered=true": {
+      "model": "modtutorialjorge:block/placa_de_presion_de_zafiro_down"
+    }
+  }
+}

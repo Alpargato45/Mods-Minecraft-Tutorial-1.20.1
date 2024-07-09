@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.jorge.tutorialmod.block.ModBlock;
 import net.jorge.tutorialmod.item.ModCreativeModTabs;
 import net.jorge.tutorialmod.item.ModItems;
+import net.jorge.tutorialmod.loot.ModLootModifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -37,6 +38,8 @@ public class TutorialMod
         ModItems.registrer(modEventBus);
         ModBlock.register(modEventBus);
 
+        ModLootModifier.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -46,6 +49,8 @@ public class TutorialMod
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
     }
+
+    //TODO: ASI SE GENERA EL JAR .\gradlew build or ./gradlew build
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {

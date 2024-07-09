@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modtutorialjorge:zafiro_from_smelting_zafiro_crudo"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zafiro_crudo": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "modtutorialjorge:zafiro_crudo"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_zafiro_crudo",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modtutorialjorge:zafiro_from_smelting_zafiro_crudo"
+    ]
+  },
+  "sends_telemetry_event": false
+}

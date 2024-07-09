@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_ore_zafiro": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "modtutorialjorge:nether_ore_zafiro"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modtutorialjorge:zafiro_from_blasting_nether_ore_zafiro"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_ore_zafiro",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modtutorialjorge:zafiro_from_blasting_nether_ore_zafiro"
+    ]
+  },
+  "sends_telemetry_event": false
+}

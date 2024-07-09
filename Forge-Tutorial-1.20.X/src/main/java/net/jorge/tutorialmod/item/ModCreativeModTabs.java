@@ -32,6 +32,35 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlock.DEEPSLATE_ORE_ZAFIRO.get());
                         pOutput.accept(ModBlock.NETHER_ORE_ZAFIRO.get());
                         pOutput.accept(ModBlock.END_STONE_ORE_ZAFIRO.get());
+
+
+                        pOutput.accept(ModBlock.ESCALERAS_DE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.SLAB_DE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.BOTON_DE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.PLACA_DE_PRESION_DE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.VALLA_DE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.VALLA_PUERTA_DE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.MURO_DE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.PUERTA_DE_ZAFIRO.get());
+                        pOutput.accept(ModBlock.TRAMPILLA_DE_ZAFIRO.get());
+
+
+                        pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
+
+
+                        pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
+                        pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_AXE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_SHOVEL.get());
+                        pOutput.accept(ModItems.SAPPHIRE_HOE.get());
+
+
+                        pOutput.accept(ModItems.SAPPHIRE_HELMET.get());
+                        pOutput.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_LEGGINGS.get());
+                        pOutput.accept(ModItems.SAPPHIRE_BOOTS.get());
+
+                        pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
                     })
                     .build());
 

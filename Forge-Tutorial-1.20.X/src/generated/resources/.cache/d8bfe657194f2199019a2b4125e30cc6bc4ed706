@@ -1,0 +1,10 @@
+// 1.20.1	2024-07-09T00:37:15.1780895	Tags for minecraft:block mod id modtutorialjorge
+bf969ab6133d9772c4dce7ebe734b574d5ee8f11 data/forge/tags/blocks/needs_netherite_tool.json
+e3efec6385da01e38bb403a82107370994677120 data/minecraft/tags/blocks/fences.json
+c08bf682c94baed5b151909e07f9bd8106d7cea3 data/minecraft/tags/blocks/fence_gates.json
+3cc641990d81bc4707ffe17f8f9fb6b199185f66 data/minecraft/tags/blocks/mineable/pickaxe.json
+edc88160cc62aaffd561be7437b637584a49f4a7 data/minecraft/tags/blocks/needs_diamond_tool.json
+c0358772575f2aa84459da713b1beca3d4188de4 data/minecraft/tags/blocks/needs_iron_tool.json
+b8efa902c6d1a95ae7402b5d6f694d1305388531 data/minecraft/tags/blocks/walls.json
+836460c3c0697e0865e856e5f752da0989337527 data/modtutorialjorge/tags/blocks/metal_detector_valuables.json
+e2cc3a684772e98bf7c744c1a84288eb05724e5f data/modtutorialjorge/tags/blocks/needs_sapphire_tool.json

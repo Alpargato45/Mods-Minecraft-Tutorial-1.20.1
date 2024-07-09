@@ -42,5 +42,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlock.END_STONE_ORE_ZAFIRO.get());
+
+        this.tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
+                .add(ModBlock.SOUND_BLOCK.get());
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlock.VALLA_DE_ZAFIRO.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlock.VALLA_PUERTA_DE_ZAFIRO.get());
+        this.tag(BlockTags.WALLS)
+                .add(ModBlock.MURO_DE_ZAFIRO.get());
     }
 }

@@ -1,0 +1,5 @@
+// 1.20.1	2024-07-09T16:36:21.2646654	Global Loot Modifiers : modtutorialjorge
+8d99fa338f37deaa45455dced709f6c41a22a1b6 data/forge/loot_modifiers/global_loot_modifiers.json
+b4181510b9556d94a966adae268543daf082a18b data/modtutorialjorge/loot_modifiers/metal_detector_from_jungle_temples.json
+2011bada0ae150e5891f5a8e53414bfd0763bf25 data/modtutorialjorge/loot_modifiers/pine_cone_from_creeper.json
+cbb6cf52f54ea20fcd454ad069032e32ac2c37ff data/modtutorialjorge/loot_modifiers/pine_cone_from_grass.json

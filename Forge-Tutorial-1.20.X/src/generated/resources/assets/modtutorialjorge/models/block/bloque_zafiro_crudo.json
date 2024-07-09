@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "modtutorialjorge:block/bloque_zafiro_crudo"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "zafiro",
+  "ingredient": {
+    "item": "modtutorialjorge:deepslate_ore_zafiro"
+  },
+  "result": "modtutorialjorge:zafiro"
+}

@@ -10,12 +10,42 @@
   "item.modtutorialjorge.strawberry": "Fresa",
   "item.modtutorialjorge.pine_cone": "Piña",
 
+  "item.modtutorialjorge.sapphire_staff": "Staff de Zafiro",
+
   "block.modtutorialjorge.ore_zafiro": "Ore de Zafiro",
   "block.modtutorialjorge.deepslate_ore_zafiro": "Ore de Zafiro de Deepslate",
   "block.modtutorialjorge.end_stone_ore_zafiro": "Ore de Zafiro de Endstone",
   "block.modtutorialjorge.nether_ore_zafiro": "Ore de Zafiro de Netherrack",
 
   "tooltip.modtutorialjorge.metal_detector.tooltip": "Encuentra minerales bajo tierra",
+
+  "block.modtutorialjorge.escalera_de_zafiro": "Escalera de Zafiro",
+  "block.modtutorialjorge.slab_de_zafiro": "Slab de Zafiro",
+  "block.modtutorialjorge.boton_de_zafiro": "Botón de Zafiro",
+  "block.modtutorialjorge.placa_de_presion_de_zafiro": "Placa de Presión de Zafiro",
+  "block.modtutorialjorge.valla_de_zafiro": "Valla de Zafiro",
+  "block.modtutorialjorge.valla_puerta_de_zafiro": "Valla Puerta de Zafiro",
+  "block.modtutorialjorge.muro_de_zafiro": "Muro de Zafiro",
+  "block.modtutorialjorge.puerta_de_zafiro": "Puerta de Zafiro",
+  "block.modtutorialjorge.trampilla_de_zafiro": "Trampilla de Zafiro",
+
+
+
+  "item.modtutorialjorge.sapphire_sword": "Sapphire Sword",
+  "item.modtutorialjorge.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.modtutorialjorge.sapphire_axe": "Sapphire Axe",
+  "item.modtutorialjorge.sapphire_shovel": "Sapphire Shovel",
+  "item.modtutorialjorge.sapphire_hoe": "Sapphire Hoe",
+
+
+
+  "item.modtutorialjorge.sapphire_helmet": "Sapphire Helmet",
+  "item.modtutorialjorge.sapphire_chestplate": "Sapphire Chestplate",
+  "item.modtutorialjorge.sapphire_leggings": "Sapphire Leggings",
+  "item.modtutorialjorge.sapphire_boots": "Sapphire Boots",
+
+  "item.modtutorialjorge.strawberry_seeds": "Strawberry Seeds",
+
 
   "creativetab.tutorial_tab": "Zafiro Tutorial tab"
 }
